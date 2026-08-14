@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bloom &amp; Bean Café | Bookings &amp; Enquiries</title>
+</head>
+<body>
+
+    <!-- ===== HEADER / NAV ===== -->
+    <header>
+        <div>
+            <div>Bloom &amp; Bean</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="enquiry.html">Bookings</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ===== PAGE HEADER ===== -->
+    <section>
+        <h1>Bookings &amp; Enquiries</h1>
+        <p>Host your next event, meeting, or celebration at Bloom &amp; Bean.</p>
+    </section>
+
+    <!-- ===== ENQUIRY SECTION ===== -->
+    <section>
+        <div>
+            <div>
+
+                <!-- ===== ENQUIRY INFO ===== -->
+                <div>
+                    <h2>Host Your Event With Us</h2>
+                    <p>
+                        Whether you're planning a corporate meeting, a birthday celebration,
+                        or a private gathering — our space is the perfect setting. With
+                        beautiful interiors, delicious catering, and a warm atmosphere,
+                        we'll make your event unforgettable.
+                    </p>
+
+                    <ul>
+                        <li>
+                            <span><strong>Accommodates up to 40 guests</strong> — perfect for intimate events</span>
+                        </li>
+                        <li>
+                            <span><strong>Customisable catering</strong> — choose from our full menu or create a bespoke package</span>
+                        </li>
+                        <li>
+                            <span><strong>Free Wi-Fi &amp; AV equipment</strong> — ideal for presentations and meetings</span>
+                        </li>
+                        <li>
+                            <span><strong>Beautiful plant-filled setting</strong> — a unique and memorable space</span>
+                        </li>
+                    </ul>
+
+                    <div>
+                        <blockquote>
+                            "Bloom &amp; Bean hosted our team offsite — the space was perfect,
+                            the coffee was flowing, and the team absolutely loved it. Highly recommended!"
+                        </blockquote>
+                        <cite>&mdash; Sarah M., Marketing Director</cite>
+                    </div>
+                </div>
+
+                <!-- ===== ENQUIRY FORM ===== -->
+                <div>
+                    <h2>Make an Enquiry</h2>
+                    <p>Fill in the form below and we'll get back to you within 24 hours.</p>
+
+                    <form action="#" method="POST">
+                        <!-- Name & Email Row -->
+                        <div>
+                            <div>
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" placeholder="Enter your name" required />
+                            </div>
+                            <div>
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" placeholder="Enter your email" required />
+                            </div>
+                        </div>
+
+                        <!-- Phone & Date Row -->
+                        <div>
+                            <div>
+                                <label for="phone">Phone Number *</label>
+                                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required />
+                            </div>
+                            <div>
+                                <label for="date">Preferred Date</label>
+                                <input type="date" id="date" name="date" />
+                            </div>
+                        </div>
+
+                        <!-- Enquiry Type -->
+                        <div>
+                            <label for="enquiry-type">Enquiry Type *</label>
+                            <select id="enquiry-type" name="enquiry_type" required>
+                                <option value="">Please select...</option>
+                                <option value="event">Private Event / Function</option>
+                                <option value="corporate">Corporate Meeting / Team Offsite</option>
+                                <option value="celebration">Birthday / Celebration</option>
+                                <option value="workshop">Workshop / Class</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <!-- Number of Guests -->
+                        <div>
+                            <label for="guests">Estimated Number of Guests</label>
+                            <input type="number" id="guests" name="guests" placeholder="e.g. 20" min="1" />
+                        </div>
+
+                        <!-- Special Requests -->
+                        <div>
+                            <label for="message">Special Requests / Details *</label>
+                            <textarea id="message" name="message" placeholder="Tell us about your event, any dietary requirements, or specific requests..." required></textarea>
+                        </div>
+
+                        <button type="submit">Submit Enquiry</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div>
+            <div>
+                <h4>Bloom &amp; Bean Café</h4>
+                <p>Stellenbosch, Western Cape</p>
+                <p>021 123 4567</p>
+                <p>hello@bloomandbean.co.za</p>
+            </div>
+            <div>
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="enquiry.html">Bookings</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Opening Hours</h4>
+                <ul>
+                    <li>Mon &ndash; Fri: 7:00am &ndash; 6:00pm</li>
+                    <li>Saturday: 8:00am &ndash; 5:00pm</li>
+                    <li>Sunday: 8:00am &ndash; 3:00pm</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Connect With Us</h4>
+                <div>
+                    <a href="#" aria-label="Facebook">Facebook</a>
+                    <a href="#" aria-label="Instagram">Instagram</a>
+                    <a href="#" aria-label="Twitter">Twitter</a>
+                </div>
+            </div>
+            <div>
+                &copy; 2026 Bloom &amp; Bean Café. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
